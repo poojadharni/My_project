@@ -1,0 +1,21 @@
+site_name: My Docs
+site_url: https://mydomain.org/mysite
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.instant.preview
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    #- toc.integrate
+
+nav:
+  - Home: index.md
+  - About: 
+      - About Me: about/about.md
+      - Childhood: about/Childhood.md
